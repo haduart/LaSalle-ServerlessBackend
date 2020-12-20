@@ -1,0 +1,8 @@
+.chalice/deployments/
+.chalice/venv/
+.idea/
+__pycache__/
+app-3.py
+/.chalice/deployed/dev.json
+secrets/
+*.pyc
