@@ -99,7 +99,7 @@ def news():
 
     if key in users_new_dictionary:
         return json.dumps(users_new_dictionary[key])
-    raise NotFoundError("key: " + key + " not found")
+    return json.dumps([])
 
 
 # /news?key=127H3267
